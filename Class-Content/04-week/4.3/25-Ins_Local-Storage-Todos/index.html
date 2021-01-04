@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Gradebook</title>
+  </head>
+  <body>
+    <div class="card">
+      <h2>Enter a Grade</h2>
+      <form>
+        <ul>
+          <li>
+            <label for="name">Student Name</label>
+            <select id="student-names">
+              <option value="Maya">Maya</option>
+              <option value="Alex">Alex</option>
+              <option value="Sojung">Sojung</option>
+              <option value="Tomas">Tomas</option>
+            </select>
+          </li>
+          <li>
+            <label for="grade">Grade</label>
+            <select id="grades">
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="Incomplete">Incomplete</option>
+            </select>
+          </li>
+          <li>
+            <label for="msg">Comment</label>
+            <textarea id="msg" name="comments"></textarea>
+          </li>
+        </ul>
+        <button id="save">SAVE</button>
+      </form>    
+    </div>
+
+    <div class="card">
+      <h2>Last Saved Grade</h2>
+      <p>Student's Name: <span id="saved-name"></span></p>
+      <p>Grade: <span id="saved-grade"></span></p>
+      <p>Comment: <span id="saved-comment"></span></p>
+    </div>
+    
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

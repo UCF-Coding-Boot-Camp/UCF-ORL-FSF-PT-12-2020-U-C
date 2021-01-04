@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #eff5f8;
+  color: #001b44;
+}
+
+label, p {
+  font-size: 30px;
+}
+
+input {
+  height: 50px;
+  width: 100%;
+  padding: 6px;
+  margin-top: 10px;
+  font-size: 2em;
+  border: 1px solid #001b44;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: white;
+}
+
+li {
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color:  #001b44;
+  color: white;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+li:before {
+  content: "\200B";
+  position: absolute;
+}
+
+li::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+li button {
+  float: right;
+  border: none;
+  height: 40px;
+  cursor: pointer;
+  background-color: #ff7034;
+  color: white;
+  font-size: 1em;
+}
+
+.card {
+  display: block;
+  background-color:	#FFFFE0;
+  border: 1px solid #eceff1;
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
+    rgba(60, 64, 67, 0.15) 0 2px 4px 3px;
+  margin: 60px auto;
+  padding: 20px;
+  width: 80vw;
+}

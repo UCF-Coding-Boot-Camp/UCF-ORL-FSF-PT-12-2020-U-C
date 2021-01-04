@@ -1,0 +1,40 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body, .outer-div {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+body {
+  color: white;
+}
+
+h2 {
+  color: black;
+}
+
+.outer-div {
+  background-color: #6c7575;
+  cursor: pointer;
+  padding: 100px;
+}
+
+.inner-div {
+  height: 60%;
+  background-color: #e1f5f4 ;
+  padding: 100px;
+  margin: 20px;
+  color: #6c7575;
+}
+
+.button {
+  background-color:#6c7575;
+  color: white;
+  padding: 20px;
+  margin: 100px;
+}
+

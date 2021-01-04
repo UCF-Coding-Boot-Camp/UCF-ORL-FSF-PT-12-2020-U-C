@@ -1,0 +1,36 @@
+body {
+  background-color: #eff5f8
+}
+
+h4 {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.container {
+  display: block;
+  margin: 80px auto;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 60vw;
+  background-color: #f0ead6;
+}
+
+.wrapper {
+  padding-top: 20px;
+}
+
+.card-contents {
+  padding: 5px 5px 10px 5px;
+}
+
+button {
+  padding: 10px;
+  margin: 24px;
+  cursor: pointer;
+  font-size: 24px;
+  background-color: #247BA0;
+  color: white;
+}
