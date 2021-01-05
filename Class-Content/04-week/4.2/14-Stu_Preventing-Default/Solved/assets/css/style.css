@@ -1,0 +1,42 @@
+body {
+  background-color: #eff5f8
+}
+
+input {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 20px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  margin: 24px;
+  cursor: pointer;
+  font-size: 24px;
+  background-color: #247BA0;
+  color: white;
+}
+
+.container {
+  display: block;
+  margin: 60px auto;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 60vw;
+  background-color: #f0ead6;
+}
+
+.card-contents {
+  padding: 5px 5px 30px 5px;
+}
+
+.tip-area {
+  padding-bottom: 20px;
+}

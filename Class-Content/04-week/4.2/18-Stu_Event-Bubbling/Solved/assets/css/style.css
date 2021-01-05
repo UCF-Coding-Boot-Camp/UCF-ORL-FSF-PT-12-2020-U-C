@@ -1,0 +1,46 @@
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #eff5f8;
+}
+
+.container {
+  display: block;
+  margin: 60px auto;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 80vw;
+  background-color: #f0ead6;
+  padding-top: 20px;
+}
+
+.carouselbox {
+  display:block;
+  margin: auto;
+  width: 300px;
+  height: 200px;
+  cursor: pointer;
+  padding-bottom: 40px;
+}
+
+img {
+  margin: 0 auto;
+}
+
+.prev {
+  text-align: center;
+  width: 100px;
+  height: 30px
+}
+
+.next {
+  text-align: center;
+  width: 100px;
+  height: 30px;
+}
+
+.wrapper {
+  padding-bottom: 30px;
+}
