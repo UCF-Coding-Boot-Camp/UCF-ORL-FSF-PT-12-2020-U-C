@@ -1,0 +1,32 @@
+[
+  {
+    "make": "Ford",
+    "model": "Mustang",
+    "mileage": 40000
+  },
+  {
+    "make": "Honda",
+    "model": "Accord",
+    "mileage": 30000
+  },
+  {
+    "make": "Honda",
+    "model": "Civic",
+    "mileage": 50000
+  },
+  {
+    "make": "Toyota",
+    "model": "Camry",
+    "mileage": 60000
+  },
+  {
+    "make": "Toyota",
+    "model": "Corolla",
+    "mileage": 50000
+  },
+  {
+    "make": "Subaru",
+    "model": "Outback",
+    "mileage": 20000
+  }
+]

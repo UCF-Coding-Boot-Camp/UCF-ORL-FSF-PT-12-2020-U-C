@@ -1,0 +1,47 @@
+[
+    {
+      
+      "name": "Phoenix Public Library",
+      "location": "122 N. Central Ave",
+      "amount_of_books": 25000,
+      "book_capacity": 28755,
+      "year_built": 1989,
+      "is_accessible": true
+    },
+    {
+      
+      "name": "Australian National University Library",
+      "location": "JB Chifley Building, (Building, 15 Joplin Ln, Acton ACT 2601, Australia",
+      "amount_of_books": 30000,
+      "book_capacity": 34650,
+      "year_built": 1948,
+      "is_accessible": true
+    },
+    {
+      
+      "name": "Calgary Public Library",
+      "location": "800 3 St SE, Calgary, AB T2G 2E7, Canada",
+      "amount_of_books": 1200000,
+      "book_capacity": 1500000,
+      "year_built": 1912,
+      "is_accessible": true
+    },
+    {
+      
+      "name": "Cory Library for Historical Research",
+      "location": "Lucas Ave, Grahamstown, 6139, South Africa",
+      "amount_of_books": 45000,
+      "book_capacity": 50000,
+      "year_built": 1933,
+      "is_accessible": true
+    },
+    {
+      
+      "name": "Imperial College Central Library",
+      "location": "Imperial College London, South Kensington Campus, London SW7 2AZ, United Kingdom",
+      "amount_of_books": 85000,
+      "book_capacity": 100000,
+      "year_built": 1969,
+      "is_accessible": true
+    }
+  ]
