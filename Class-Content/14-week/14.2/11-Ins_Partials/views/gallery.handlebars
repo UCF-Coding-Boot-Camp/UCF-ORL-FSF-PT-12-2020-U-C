@@ -1,0 +1,17 @@
+<section class="container">
+  <h3 class="gallery-name">{{gallery.name}}</h3>
+  <section class="flex-row justify-center">
+    {{#each gallery.paintings as |painting|}}
+    <section class="card">
+      <a href="/painting/{{id}}">
+        <header>{{title}}</header>
+
+        <div class="card-body">
+          <img src="/images/{{filename}}" alt="{{description}}">
+          <p>By: {{artist}}</p>
+        </div>
+      </a>
+    </section>
+    {{/each}}
+  </section>
+</section>

@@ -1,0 +1,12 @@
+<section class="container">
+  <h3 class="gallery-name">{{gallery.name}}</h3>
+  <!-- Without the custom helper, the entire timestamp is printed -->
+  <h4>Opening Hour: {{gallery.starting_date}}</h4>
+  <!-- Using a custom helper 'format_time', the time has been formatted -->
+  <h4>Closing Hour: {{format_time gallery.ending_date}}</h4>
+  <section class="flex-row justify-center">
+    {{#each gallery.paintings as |painting|}}
+    {{> painting-details}}
+    {{/each}}
+  </section>
+</section>

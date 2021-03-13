@@ -1,0 +1,24 @@
+<div class="menu-container">
+  <div class="card-header col-md-10">
+    <h2>
+      &#127869 Current Menu
+    </h2>
+  </div>
+  <!-- We implement the built-in helper, #each. This helper will iterate over dishes -->
+  {{#each dishes as |dish|}}
+  <!-- For each dish in the array of dish objects, the following <div> will be rendered. -->
+    <div class="dish col-md-5">
+      <!-- We use dish.id instead of <od> and <li> elements. -->
+      <p>
+        {{dish.id}}.
+        {{dish.dish_name}}
+      </p>
+    </div>
+    <div class="col-md-7">
+      <p>
+        <!-- guest_name will eventually go here -->
+      </p>
+    </div>
+    <!-- Below, we close the #each helper. -->
+  {{/each}}
+</div>

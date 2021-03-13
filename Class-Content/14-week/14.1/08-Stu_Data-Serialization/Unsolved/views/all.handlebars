@@ -1,0 +1,21 @@
+<div class="menu-container">
+  <div class="card-header col-md-10">
+    <h2>
+      &#127869 Current Menu
+    </h2>
+  </div>
+  {{#each dishes as |dish|}}
+    <div class="dish col-md-5">
+      <p>
+        {{dish.id}}.
+        {{dish.dish_name}}
+      </p>
+    </div>
+    <div class="col-md-7">
+      <p>
+        Guest:
+        {{dish.guest_name}}
+      </p>
+    </div>
+  {{/each}}
+</div>
