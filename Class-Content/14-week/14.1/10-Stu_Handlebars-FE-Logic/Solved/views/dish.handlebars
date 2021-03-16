@@ -1,0 +1,67 @@
+<div class="dish-card">
+  <div class="dish-card-header">
+    {{dish_name}}
+  </div>
+  <div class="card-body">
+    <p>
+      Description:
+      {{description}}
+    </p>
+    <p>
+      Guest:
+      {{guest_name}}
+    </p>
+    {{#if has_nuts}}
+      <p class="has-nuts">
+        Contains Nuts
+      </p>
+    {{/if}}
+  </div>
+</div>
+
+<!-- This is the form for updating a dish. According to MVC framework, what is this form responsible for? -->
+<!-- This form is responsible for the UI logic, or the components in the View that the user will interact with. -->
+<!--What isn't it responsible for? -->
+<!--It is not responsible for data-related logic, requests, or business-logic. -->
+
+<div class="edit-dish-container">
+  <h2>
+    Update Dish
+  </h2>
+  <form class="edit-dish-form">
+    <label for="dish_name">
+      Dish Name:
+    </label>
+    <br />
+    <textarea id="dish_name" name="dish_name" rows="2" cols="30">
+      {{dish_name}}
+    </textarea>
+    <br />
+    <label for="description">
+      Description:
+    </label>
+    <br />
+    <textarea id="description" name="description" rows="5" cols="30">
+      {{description}}
+    </textarea>
+    <br />
+    <label for="guest_name">
+      Guest Name:
+    </label>
+    <br />
+    <textarea id="guest_name" name="guest_name" rows="2" cols="30">
+      {{guest_name}}
+    </textarea>
+    <br />
+    <br />
+    <input type="checkbox" id="has_nuts" name="has_nuts" value="true" />
+    <label for="has_nuts">
+      Check box if this dish contains nuts
+    </label>
+    <br />
+    <button type="submit" value="Submit">
+      Submit
+    </button>
+  </form>
+</div>
+<script src="/js/edit-dish.js"></script>

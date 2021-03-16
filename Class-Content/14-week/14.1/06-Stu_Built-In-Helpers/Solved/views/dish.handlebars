@@ -1,0 +1,19 @@
+<div class="dish-card">
+  <div class="dish-card-header">
+    {{dish_name}}
+  </div>
+  <div class="card-body">
+    <p>
+      Description:
+      {{description}}
+    </p>
+    <!-- This is where we initiate the #if helper with has_nuts set as the condition -->
+    {{#if has_nuts}}
+    <!-- This code will be rendered if the condition (has_nuts) is truthy -->
+      <p class="has-nuts">
+        Contains Nuts
+      </p>
+      <!-- Below, we end the #if helper -->
+    {{/if}}
+  </div>
+</div>
