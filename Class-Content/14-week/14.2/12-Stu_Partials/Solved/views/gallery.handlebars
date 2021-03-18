@@ -1,0 +1,9 @@
+<section class="container">
+  <h3 class="gallery-name">{{gallery.name}}</h3>
+  <section class="flex-row justify-center">
+    <!-- For each painting that belongs to this gallery, the painting-details partial is used to render each painting's data -->
+    {{#each gallery.paintings as |painting|}}
+    {{> painting-details}}
+    {{/each}}
+  </section>
+</section>

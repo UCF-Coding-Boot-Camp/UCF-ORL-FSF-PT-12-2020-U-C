@@ -1,0 +1,13 @@
+<section class="card">
+  <!-- The contents of the painting card links to the painting page using the painting ID -->
+  <a href="/painting/{{id}}">
+    <!-- The card contains the painting name as the card header -->
+    <header>{{title}}</header>
+    <!-- In the body of the card, the painting is rendered along with the artist name -->
+
+    <div class="card-body">
+      <img src="/images/{{filename}}" alt="{{description}}">
+      <p>By: {{artist}}</p>
+    </div>
+  </a>
+</section>
