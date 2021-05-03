@@ -10,7 +10,7 @@ In this activity we will deploy the React Reading List application to Heroku.
 
   * Create a Heroku app for the React Reading List App.
 
-  * Create a MongoDB Atlas database.
+  * Create a MongoDB Atlas database (view the MongoDB Atlas setup and deploy instructions in the Week 17 Important folder).
   
   * Add a MONGODB_URI environment variable to your Heroku app with the connection string to your newly created database.
 
